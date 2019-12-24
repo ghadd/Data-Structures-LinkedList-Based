@@ -1,7 +1,7 @@
 #pragma once
 #include "LinkedList.h"
 
-/*Initializes list with first element and sets relations to NULLs. Here HEAD id TAIL.*/
+/*Initializes list with first element and sets relations to NULLs. Here HEAD is TAIL.*/
 void init(LinkedList** listPtr, int value) {
 	*listPtr = (LinkedList*)malloc(sizeof(LinkedList));
 	if (!listPtr) {
